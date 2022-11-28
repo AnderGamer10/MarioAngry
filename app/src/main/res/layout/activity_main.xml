@@ -38,5 +38,11 @@
         android:layout_alignParentRight="true"
         android:layout_margin="16sp"/>
 
+    <ImageView
+        android:id="@+id/btnMute"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_volume_up_black_24dp" />
+
 
 </RelativeLayout>
