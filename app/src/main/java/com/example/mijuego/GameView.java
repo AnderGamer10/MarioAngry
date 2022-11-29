@@ -190,8 +190,6 @@ public class GameView extends SurfaceView implements Runnable{
             for (Bullet bullet : bullets){
                 canvas.drawBitmap(bullet.bullet, bullet.x, bullet.y, paint);
             }
-
-
             getHolder().unlockCanvasAndPost(canvas);
         }
     }
